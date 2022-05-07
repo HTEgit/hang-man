@@ -11,7 +11,7 @@ def hangman():
     word=get_valid_word(words)
     word_letters=set(word)
     alphabet=set(string.ascii_uppercase)
-    used_letters=set()
+    used_letters=set()git
     lives=6
     while len(word_letters)>0 and  lives>0:
       print(" u are left with",lives,"lives and used letters are",' '.join(used_letters))
